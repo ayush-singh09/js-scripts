@@ -18,7 +18,7 @@ const fun = (API) => {
 
 window.fun = fun;
 
-const addElement = () => {
+const addPopup = () => {
   // Create popup container
   const popup = document.createElement("div");
   popup.classList.add(
@@ -134,3 +134,4 @@ const addElement = () => {
   document.body.appendChild(popup);
 };
 
+window.addPopup = addPopup;
