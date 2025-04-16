@@ -8,7 +8,7 @@ const fun = (API) => {
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const run = async () => {
-    const prompt = "Who is the best chess player";
+    const prompt = "What is the cost of AK-47";
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
