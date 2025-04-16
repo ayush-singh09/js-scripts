@@ -5,3 +5,5 @@ const fun = (API) => {
     console.log(API);
     
 }
+
+window.fun = fun;
